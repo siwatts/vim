@@ -23,7 +23,7 @@ if v:version > 580
   endif
 endif
 
-let g:colors_name = 'dracula'
+let g:colors_name = 'dracula_term'
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running') && &t_Co != 256
   finish
@@ -42,14 +42,14 @@ let s:bgdarker  = ['#191A21', 234]
 let s:subtle    = ['#424450', 238]
 
 let s:selection = ['#44475A', 239]
-let s:comment   = ['#6272A4',  61]
-let s:cyan      = ['#8BE9FD', 117]
-let s:green     = ['#50FA7B',  84]
-let s:orange    = ['#FFB86C', 215]
-let s:pink      = ['#FF79C6', 212]
-let s:purple    = ['#BD93F9', 141]
+let s:comment   = ['#6272A4',   8]
+let s:cyan      = ['#8BE9FD',   6]
+let s:green     = ['#50FA7B',   2]
+let s:orange    = ['#FFB86C',   5]
+let s:pink      = ['#FF79C6',   1]
+let s:purple    = ['#BD93F9',   4]
 let s:red       = ['#FF5555', 203]
-let s:yellow    = ['#F1FA8C', 228]
+let s:yellow    = ['#F1FA8C',   3]
 
 let s:none      = ['NONE', 'NONE']
 
